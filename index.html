@@ -1,31 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prasad Rao's Portfolio</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-    <header>
-        <h1>Prasad Rao's Data Science Projects Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>This is my portfolio showcasing my data science projects and learning journey.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Prasad Rao</p>
-    </footer>
-</body>
-</html>/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}
+
+.content {
+    margin-left: 270px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

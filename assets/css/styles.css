@@ -6,6 +6,13 @@ body {
     color: #ffffff;
 }
 
+header {
+    background-color: #1e1e1e;
+    color: #4CAF50;
+    text-align: center;
+    padding: 1em 0;
+}
+
 .container {
     display: flex;
 }
